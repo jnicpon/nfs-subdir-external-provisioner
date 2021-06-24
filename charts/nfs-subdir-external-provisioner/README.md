@@ -30,7 +30,7 @@ $ helm install my-release nfs-subdir-external-provisioner/nfs-subdir-external-pr
     --set nfs.path=/exported/path
 ```
 
-The command deploys the given storage class in the default configuration. It can be used afterswards to provision persistent volumes. The [configuration](#configuration) section lists the parameters that can be configured during installation.
+The command deploys the given storage class in the default configuration. It can be used afterwards to provision persistent volumes. The [configuration](#configuration) section lists the parameters that can be configured during installation.
 
 > **Tip**: List all releases using `helm list`
 
